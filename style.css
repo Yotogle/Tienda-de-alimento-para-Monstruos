@@ -71,33 +71,10 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-x
-section {
-    display: flex;
-    width: 1250px;
-    height: 300px;
-}
-
-section img {
- 
-    width: 0px; 
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
-    
-}
-
-
-section img:hover {
-    cursor: crosshair;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-}
 
 .contenedor {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     background-color: black;
 }
@@ -129,6 +106,7 @@ section img:hover {
     display: flex;
     width: 100%;
     height: 600px;
+    flex-wrap: wrap;
     background-color: black;
     justify-content: center;
     align-items: center;
@@ -137,6 +115,30 @@ section img:hover {
 .contenedor-2 img {
     height: auto;
     width: 50%;
+}
+
+section {
+    display: flex;
+    width: 1250px;
+    height: 300px;
+}
+
+section img {
+ 
+    width: 0px; 
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    
+}
+
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
 }
   
 .flex-container video {
@@ -159,19 +161,11 @@ section img:hover {
     height: 300px;
 }
 
-.padre-boite{
-    height: 100%;
-    width: 100%;
-    background-image: url(Imagenes/vampiros/9.jpg);
-    background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat
-} 
-
 .flex-boiter {
     width: 1800 px;
     height: 600px;
-    display:flex ; 
+    display:flex ;
+    flex-wrap: wrap; 
     flex-direction: row;
     justify-content: space-around;
     font-family: Noto Sans,Helvetica,Arial,sans-serif;
@@ -181,6 +175,7 @@ section img:hover {
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat
+
 
     
 }  
@@ -209,6 +204,7 @@ section img:hover {
     display: flex;
     width: 100%;
     height: 800px;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background-image: url(Imagenes/vampiros/9.jpg);
