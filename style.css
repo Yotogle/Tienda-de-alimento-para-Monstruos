@@ -116,6 +116,7 @@ body {
 .contenedor-2 img {
     height: auto;
     width: 50%;
+    flex-wrap: wrap;
 }
 
 section {
@@ -314,6 +315,7 @@ section img:hover {
 }
 
 .cookie-footer {
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
